@@ -16,16 +16,16 @@
 Ответьте на следующие вопросы:
 
 Какие сетевые службы в ней разрешены?
-![]()
+![](https://github.com/Fizic666/netology-homework-13-01/blob/main/13-1-1.jpg)
 
 
 Какие уязвимости были вами обнаружены? (список со ссылками: достаточно трёх уязвимостей)
 Приведите ответ в свободной форме.
-![]()
+![](https://github.com/Fizic666/netology-homework-13-01/blob/main/13-1-2.jpg)
 
-![]()
+![](https://github.com/Fizic666/netology-homework-13-01/blob/main/13-1-3.jpg)
 
-![]()
+![](https://github.com/Fizic666/netology-homework-13-01/blob/main/13-1-4.jpg)
 
 # Задание 2
 Проведите сканирование Metasploitable в режимах SYN, FIN, Xmas, UDP.
