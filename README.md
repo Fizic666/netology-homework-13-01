@@ -26,7 +26,7 @@
 ![](https://github.com/Fizic666/netology-homework-13-01/blob/main/13-1-3.jpg)
 
 ![](https://github.com/Fizic666/netology-homework-13-01/blob/main/13-1-4.jpg)
-
+https://github.com/Fizic666/netology-homework-13-01/blob/main/fin.png
 # Задание 2
 Проведите сканирование Metasploitable в режимах SYN, FIN, Xmas, UDP.
 
@@ -43,9 +43,10 @@
 Режимы сканирования SYN, FIN, Xmas, UDP отличаются друг от друга отправляемыми флагами отправляемых пакетов и получаемым трафиком.
 
 UDP сканирование: в этом режиме nmap отправляет UDP пакеты на целевой порт машины. Если порт закрыт, то получается ответ портом ICMP с сообщением "port unreachable". Если ответа нет, то значит порт открыт.
-
+![](https://github.com/Fizic666/netology-homework-13-01/blob/main/udp.png)
 SYN сканирование: в этом режиме nmap отправляет TCP пакеты с флагом SYN. Если получается установить соединение (приходит флаг ACK), это означает, что порт открыт. Если возвращается RST, это означает, что порт закрыт.
-
+![](https://github.com/Fizic666/netology-homework-13-01/blob/main/syn.png)
 FIN сканирование: в этом режиме nmap отправляет TCP пакеты с флагом FIN. Если отправитель получает RST-пакет в ответ, то значит порт закрыт.
-
+![](https://github.com/Fizic666/netology-homework-13-01/blob/main/fin.png)
 Xmas сканирование: в этом режиме nmap отправляет TCP пакеты с флагами FIN, URG и PUSH. Если отправитель получает RST-пакет в ответ, то значит порт закрыт.
+![](https://github.com/Fizic666/netology-homework-13-01/blob/main/xmas.png)
